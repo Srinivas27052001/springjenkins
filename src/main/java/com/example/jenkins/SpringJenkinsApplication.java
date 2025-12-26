@@ -27,6 +27,7 @@ public class SpringJenkinsApplication {
 	public String message(){
 
      log.info("Application Started");
+	 log.info("You use application");
 
 		return "Wao!! Application Deployed successfully in SAP Cloud..";
 	}
