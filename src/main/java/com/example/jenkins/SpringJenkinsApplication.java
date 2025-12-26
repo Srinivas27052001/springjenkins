@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.logging.Logger;
 
 @SpringBootApplication
 @RestController
@@ -19,7 +18,9 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void intt()
 	{
-		log.info("Application Started");
+		log.info("Application Started")
+		;
+		log.info("Application started second");
 	}
 
 
