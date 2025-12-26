@@ -18,7 +18,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void intt()
 	{
-		log.info("Application Started")
+		log.info("Application Started");
 		;
 		log.info("Application started second");
 	}
