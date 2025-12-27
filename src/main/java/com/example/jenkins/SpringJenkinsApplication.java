@@ -22,6 +22,8 @@ public class SpringJenkinsApplication {
 		;
 		log.info("Application started second");
 
+		log.info("pushing dockerimage to docker hub");
+
 	}
 
 
