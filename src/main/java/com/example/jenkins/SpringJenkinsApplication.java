@@ -21,7 +21,7 @@ public class SpringJenkinsApplication {
 		log.info("Application Started");
 		;
 		log.info("Application started second");
-		log.info("Application code commit when jenkins is stopped");
+
 	}
 
 
